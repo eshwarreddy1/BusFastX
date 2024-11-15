@@ -2,7 +2,7 @@ package com.hexaware.busfastx.service;
 
 import java.util.List;
 
-import com.hexaware.busfastx.entity.Booking;
+import com.hexaware.busfastx.entities.Booking;
 
 public class BookingServiceImpl implements IBookingService{
 

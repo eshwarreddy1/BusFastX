@@ -2,7 +2,7 @@ package com.hexaware.busfastx.service;
 
 import java.util.List;
 
-import com.hexaware.busfastx.entity.Admin;
+import com.hexaware.busfastx.entities.Admin;
 
 
 

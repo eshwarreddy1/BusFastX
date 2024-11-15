@@ -2,7 +2,7 @@ package com.hexaware.busfastx.service;
 
 import java.util.List;
 
-import com.hexaware.busfastx.entity.Payment;
+import com.hexaware.busfastx.entities.Payment;
 
 public class PaymentServiceImpl implements IPaymentService{
 

@@ -1,4 +1,4 @@
-package com.hexaware.busfastx.entity;
+package com.hexaware.busfastx.entities;
 
 import java.time.LocalDate;
 

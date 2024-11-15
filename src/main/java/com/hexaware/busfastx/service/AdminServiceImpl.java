@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.hexaware.busfastx.entity.Admin;
+import com.hexaware.busfastx.entities.Admin;
 import com.hexaware.busfastx.repository.IAdminRepo;
 @Service
 public class AdminServiceImpl implements IAdminService{
