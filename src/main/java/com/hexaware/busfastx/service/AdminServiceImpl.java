@@ -2,13 +2,16 @@ package com.hexaware.busfastx.service;
 
 import java.util.List;
 
-import com.hexaware.busfastx.entity.Admin;
-import com.hexaware.busfastx.repository.AdminRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import com.hexaware.busfastx.entity.Admin;
+import com.hexaware.busfastx.repository.IAdminRepo;
+@Service
 public class AdminServiceImpl implements IAdminService{
 
-	
-	AdminRepository repo;
+	@Autowired
+	IAdminRepo repo;
 	
 	@Override
 	public Admin addAdmin(Admin admin) {

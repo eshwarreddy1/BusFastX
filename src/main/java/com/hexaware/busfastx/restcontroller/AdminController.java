@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.hexaware.busfastx.entity.Admin;
 import com.hexaware.busfastx.service.IAdminService;
 
+
+
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {
@@ -66,7 +68,6 @@ public class AdminController {
 	  public List<Admin> getByEmail(@PathVariable String email){
 		  return service.getByEmail(email);
 	  }
-	
 	
 
 }

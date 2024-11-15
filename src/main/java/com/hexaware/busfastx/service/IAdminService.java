@@ -4,6 +4,8 @@ import java.util.List;
 
 import com.hexaware.busfastx.entity.Admin;
 
+
+
 public interface IAdminService {
 	
 	public Admin addAdmin(Admin admin);
