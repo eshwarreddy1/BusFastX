@@ -2,20 +2,19 @@ package com.hexaware.busfastx.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name="admin")
 public class Admin {
 	
 	@Id
 	private int adminId;
     private String email;
     private String password;
-	private final String role = "ADMIN";
-
 	public Admin() {
 		super();
 	}
-	
 	public Admin(int adminId, String email, String password) {
 		super();
 		this.adminId = adminId;
@@ -40,12 +39,6 @@ public class Admin {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public String getRole() {
-		return role;
-	}
-	@Override
-	public String toString() {
-		return "Admin [adminId=" + adminId + ", email=" + email + ", password=" + password + "]";
-	}
+    
 
 }
